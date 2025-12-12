@@ -33,10 +33,10 @@ These correspond to the four corners of the 10×10 square:
 ## Dynamics
 The vehicle is modeled using planar kinematic dynamics with heading and speed control:
 
-ẋ = v cos(θ)
-ẏ = v sin(θ)
-θ̇ = γ
-v̇ = a
+* ẋ = v cos(θ)
+* ẏ = v sin(θ)
+* θ̇ = γ
+* v̇ = a
 
 ---
 
