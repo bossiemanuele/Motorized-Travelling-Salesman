@@ -33,28 +33,15 @@ These correspond to the four corners of the 10×10 square:
 ## Dynamics
 The vehicle is modeled using planar kinematic dynamics with heading and speed control:
 
-\[
-\dot{x} = v \cos\theta
-\]
-
-\[
-\dot{y} = v \sin\theta
-\]
-
-\[
-\dot{\theta} = \gamma
-\]
-
-\[
-\dot{v} = a
-\]
+ẋ = v cos(θ)
+ẏ = v sin(θ)
+θ̇ = γ
+v̇ = a
 
 ---
 
 ## Objective
-Maximize \[
-J = 10n - t_f
-\], where:
+Maximize J = 10n - t_f, where:
 
 - **`n`** = number of cities your salesman has visited
 
