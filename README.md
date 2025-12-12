@@ -3,7 +3,7 @@
 ## Problem statement
 Find the **minimum-time path** that visits **all 10 cities** inside a **10×10** square, **starting from any one of the 4 corner origins**.
 
-- The **10 city locations has been determined randomly and available below.**
+- The **10 city locations have been determined randomly and available below.**
 
 > For our proposed solution, read: **`ColonParenthesis_FinalProject.pdf`**.
 
@@ -30,8 +30,31 @@ These correspond to the four corners of the 10×10 square:
 
 ---
 
+## Dynamics
+The vehicle is modeled using planar kinematic dynamics with heading and speed control:
+
+\[
+\dot{x} = v \cos\theta
+\]
+
+\[
+\dot{y} = v \sin\theta
+\]
+
+\[
+\dot{\theta} = \gamma
+\]
+
+\[
+\dot{v} = a
+\]
+
+---
+
 ## Objective
-Maximize J=10n-t_f, where:
+Maximize \[
+J = 10n - t_f
+\], where:
 
 - **`n`** = number of cities your salesman has visited
 
